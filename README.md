@@ -1,2 +1,29 @@
 # Districting-Examples
-Districting Examples using Python, Gurobi, NetworkX, and GeoPandas
+Examples on how to generate political districting plans. All codes are written using Python, with NetworkX used for handling graphs, Gurobi used as MIP solver, and GeoPandas used to draw maps.
+
+Used in an undergraduate Operations Research course at Oklahoma State University (IEM 4013)
+
+[D1-Min-Deviation.ipynb](tbd) shows how to:
+  - read county populations from a text file
+  - build a MIP model in Gurobi to minimize population deviation
+  
+[D2-Min-Cut-Edges.ipynb](tbd) shows how to:
+  - read a graph from a file (using NetworkX)
+  - build a MIP model in Gurobi to minimize cut edges
+  - check if the resulting districts are connected (using NetworkX)
+  
+[D3-Min-Cut-Edges-with-GeoPandas.ipynb](tbd) shows how to:
+  - read a graph from a .json file (using the GerryChain reader)
+  - print the names of the counties and their populations
+  - build a MIP model in Gurobi to minimize cut edges
+  - read a shapefile with GeoPandas
+  - draw the districting plan on a map with GeoPandas
+  
+[D4-Min-Cut-Edges-with-GeoPandas-and-Contiguity.ipynb](tbd) shows how to:
+  - read a graph from a .json file (using the GerryChain reader)
+  - print the names of the counties and their populations
+  - build a MIP model in Gurobi to minimize cut edges
+  - add the contiguity constraints of [Hojny et al. (MPC, 2021)](https://link.springer.com/article/10.1007/s12532-020-00186-3)
+  - read a shapefile with GeoPandas
+  - draw the districting plan on a map with GeoPandas
+  
