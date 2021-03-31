@@ -28,4 +28,12 @@ The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people
   - add the contiguity constraints of [Hojny et al. (MPC, 2021)](https://link.springer.com/article/10.1007/s12532-020-00186-3)
   - read a shapefile with GeoPandas
   - draw the districting plan on a map with GeoPandas
+
+[D5-Min-Perimeter-with-GeoPandas-and-Contiguity.ipynb](https://github.com/AustinLBuchanan/Districting-Examples/blob/main/D5-Min-Perimeter-with-GeoPandas-and-Contiguity.ipynb) shows how to:
+  - read a graph from a .json file (using the GerryChain reader)
+  - print the names of the counties and their populations
+  - build a MIP model in Gurobi to minimize total perimeter length of the districts
+  - add the contiguity constraints of [Hojny et al. (MPC, 2021)](https://link.springer.com/article/10.1007/s12532-020-00186-3)
+  - read a shapefile with GeoPandas
+  - draw the districting plan on a map with GeoPandas
   
