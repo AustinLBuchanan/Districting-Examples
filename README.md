@@ -48,7 +48,7 @@ The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people
   - read a graph from a .json file (using the GerryChain reader)
   - print the names of the counties, their populations, and their lat-long coordinates
   - build a MIP model in Gurobi to minimize moment of inertia
-  - add the contiguity constraints of [Shirabe2005](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1538-4632.2005.00605.x) and [Shirabe2009](https://journals.sagepub.com/doi/abs/10.1068/b34104) and [Oehrlein and Haunert](http://www.josis.org/index.php/josis/article/viewArticle/379) and [Validi et al.](http://www.optimization-online.org/DB_HTML/2020/01/7582.html)
+  - add the contiguity constraints of Shirabe ([2005](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1538-4632.2005.00605.x) and [2009](https://journals.sagepub.com/doi/abs/10.1068/b34104). See [Oehrlein and Haunert](http://www.josis.org/index.php/josis/article/viewArticle/379) and [Validi et al.](http://www.optimization-online.org/DB_HTML/2020/01/7582.html) for more details.
   - read a shapefile with GeoPandas
   - draw the districting plan on a map with GeoPandas
   
