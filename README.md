@@ -36,4 +36,19 @@ The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people
   - add the contiguity constraints of [Hojny et al. (MPC, 2021)](https://link.springer.com/article/10.1007/s12532-020-00186-3)
   - read a shapefile with GeoPandas
   - draw the districting plan on a map with GeoPandas
+
+[D6-Min-Moment-of-Inertia.ipynb](https://github.com/AustinLBuchanan/Districting-Examples/blob/main/D6-Min-Moment-of-Inertia.ipynb) shows how to:
+  - read a graph from a .json file (using the GerryChain reader)
+  - print the names of the counties, their populations, and their lat-long coordinates
+  - build a MIP model in Gurobi to minimize moment of inertia
+  - read a shapefile with GeoPandas
+  - draw the districting plan on a map with GeoPandas
+  
+[D7-Min-Moment-of-Inertia-with-Contiguity.ipynb](https://github.com/AustinLBuchanan/Districting-Examples/blob/main/D7-Min-Moment-of-Inertia-with-Contiguity.ipynb) shows how to:
+  - read a graph from a .json file (using the GerryChain reader)
+  - print the names of the counties, their populations, and their lat-long coordinates
+  - build a MIP model in Gurobi to minimize moment of inertia
+  - add the contiguity constraints of [Shirabe2005](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1538-4632.2005.00605.x) and [Shirabe2009](https://journals.sagepub.com/doi/abs/10.1068/b34104) and [Oehrlein and Haunert](http://www.josis.org/index.php/josis/article/viewArticle/379) and [Validi et al.](http://www.optimization-online.org/DB_HTML/2020/01/7582.html)
+  - read a shapefile with GeoPandas
+  - draw the districting plan on a map with GeoPandas
   
