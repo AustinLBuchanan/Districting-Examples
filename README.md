@@ -55,5 +55,6 @@ The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people
 Here are some examples of student projects from the Spring 2021 semester of IEM 4013:
   - [Idaho](https://github.com/KyleHumphreys/IEM-4013-Idaho-Districting)
   - [Nebraska](https://github.com/Jay-dnn/4013-Final-Report)
+  - [Iowa](https://github.com/Jared-Johnson294/Redisctricing-Iowa)
   - [Alabama](https://github.com/livey2021/LEWVEYZAL-IEM4013-Group-Project)
   
