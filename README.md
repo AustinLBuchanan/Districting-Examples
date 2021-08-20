@@ -9,10 +9,7 @@ The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people
 
 It is possible to download the files individually, but the naming conventions are different. Daryl uses [FIPS codes](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/?cid=nrcs143_013696) while Eugene uses postal codes. So, Daryl's Oklahoma county file is called [COUNTY_40.json](http://people.csail.mit.edu/ddeford/COUNTY/40.html) while Eugene's are called [OK_counties.shp](https://lykhovyd.com/files/public/districting/OK/counties/maps/) (shx,prj,...). 
 
-A clean way to get both datasets with intuitive names (e.g., OK_county.json and OK_county.shp) is to run my [data downloaders](https://github.com/AustinLBuchanan/data-downloader).
-
-These codes will download the data for all 50 states and store them in the directory:
-C://districting-data-2010//
+A clean way to get both datasets with intuitive names (e.g., OK_county.json and OK_county.shp) is to run my [data downloaders](https://github.com/AustinLBuchanan/data-downloader). They download the data for all 50 states and store them in the directory C://districting-data-2010//
 
 # The Codes
 [D1-Min-Deviation.ipynb](https://github.com/AustinLBuchanan/Districting-Examples/blob/main/D1-Min-Deviation.ipynb) shows how to:
