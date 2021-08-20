@@ -7,7 +7,7 @@ The MIP models are summarized in [Two_districting_models.pdf](https://github.com
 # The Data
 The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people.csail.mit.edu/ddeford/dual_graphs), which has graphs for other states and other levels (e.g., census tracts, census blocks, etc). These files contain [other data](https://people.csail.mit.edu/ddeford/data_cols.html) (e.g., demographic data) besides the graph itself. The Oklahoma shapefiles are duplicated from [Eugene Lykhovyd's page](https://lykhovyd.com/files/public/districting), which has other states too.
 
-It is possible to download the files individually, but the naming conventions are different. Daryl uses FIPS codes while Eugene uses postal codes. So, Daryl's Oklahoma county file is called COUNTY_40.json while Eugene's are called OK_counties.shp (shx,prj,...). 
+It is possible to download the files individually, but the naming conventions are different. Daryl uses [FIPS codes](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/?cid=nrcs143_013696) while Eugene uses postal codes. So, Daryl's Oklahoma county file is called [COUNTY_40.json](http://people.csail.mit.edu/ddeford/COUNTY/40.html) while Eugene's are called [OK_counties.shp](https://lykhovyd.com/files/public/districting/OK/counties/maps/) (shx,prj,...). 
 
 A clean way to get both datasets with intuitive names (e.g., OK_county.json and OK_county.shp) is to run the python codes here:
 https://github.com/AustinLBuchanan/data-downloader
