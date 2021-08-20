@@ -1,10 +1,21 @@
 # Districting-Examples
 Examples on how to generate political districting plans. All codes are written using Python, with NetworkX used for handling graphs, Gurobi used as MIP solver, and GeoPandas used to draw maps. Used in an undergraduate Operations Research course at Oklahoma State University (IEM 4013).
 
+# The MIPs
 The MIP models are summarized in [Two_districting_models.pdf](https://github.com/AustinLBuchanan/Districting-Examples/blob/main/Two_districting_models.pdf).
 
+# The Data
 The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people.csail.mit.edu/ddeford/dual_graphs), which has graphs for other states and other levels (e.g., census tracts, census blocks, etc). These files contain [other data](https://people.csail.mit.edu/ddeford/data_cols.html) (e.g., demographic data) besides the graph itself. The Oklahoma shapefiles are duplicated from [Eugene Lykhovyd's page](https://lykhovyd.com/files/public/districting), which has other states too.
 
+It is possible to download the files individually, but the naming conventions are different. Daryl uses FIPS codes while Eugene uses postal codes. So, Daryl's Oklahoma county file is called COUNTY_40.json while Eugene's are called OK_counties.shp (shx,prj,...). 
+
+A clean way to get both datasets with intuitive names (e.g., OK_county.json and OK_county.shp) is to run the python codes here:
+https://github.com/AustinLBuchanan/data-downloader
+
+These codes will download the data for all 50 states and store them in the directory:
+C://districting-data-2010//
+
+# The Codes
 [D1-Min-Deviation.ipynb](https://github.com/AustinLBuchanan/Districting-Examples/blob/main/D1-Min-Deviation.ipynb) shows how to:
   - read county populations from a text file
   - build a MIP model in Gurobi to minimize population deviation
@@ -51,6 +62,8 @@ The Oklahoma county graph is duplicated from [Daryl DeFord's page](http://people
   - add the contiguity constraints of Shirabe ([2005](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1538-4632.2005.00605.x) and [2009](https://journals.sagepub.com/doi/abs/10.1068/b34104)). See [Oehrlein and Haunert, 2017](http://www.josis.org/index.php/josis/article/viewArticle/379) and [Validi et al., 2020](http://www.optimization-online.org/DB_HTML/2020/01/7582.html) for more details.
   - read a shapefile with GeoPandas
   - draw the districting plan on a map with GeoPandas
+
+# Past Student Projects
 
 Here are some examples of student projects from the Spring 2021 semester of IEM 4013:
   - [Idaho](https://github.com/KyleHumphreys/IEM-4013-Idaho-Districting)
