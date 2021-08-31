@@ -11,6 +11,8 @@ It is possible to download the files individually, but the naming conventions ar
 
 A clean way to get both datasets with intuitive names (e.g., OK_county.json and OK_county.shp) is to run my [data downloaders](https://github.com/AustinLBuchanan/data-downloader). They download the data for all 50 states and store them in the directory C://districting-data-2010//
 
+The input data is typically read using the GerryChain package. It can sometimes be difficult to install GerryChain. Here is a [tutorial video](https://www.youtube.com/watch?v=_SmR2IkIt38) if you run into problems.
+
 # The Codes
 [D1-Min-Deviation.ipynb](https://github.com/AustinLBuchanan/Districting-Examples/blob/main/D1-Min-Deviation.ipynb) shows how to:
   - read county populations from a text file
